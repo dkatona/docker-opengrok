@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat:8-jre8
 RUN mkdir /src
 RUN mkdir /data
 RUN ln -s /data /var/opengrok
